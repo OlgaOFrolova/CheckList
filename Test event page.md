@@ -1,25 +1,3 @@
- build system
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
-to Markdown converter
-- [jQuery] - duh
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
-## Installation
-
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
-```sh
-cd dillinger
-npm i
-node app
-```
-
-
-
 ### Чек-лист тестирования страницы мероприятия на сайте продажи билетов Тикетленд https://www.ticketland.ru/
 
 **Проверки:**
