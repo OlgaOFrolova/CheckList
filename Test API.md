@@ -16,7 +16,7 @@
 * вход с пустым полем пароля
 * вход с пустыми полями логина и пароля
 
-► реализация здесь: https://github.com/OlgaOFrolova/API/blob/main/tests/test_auth_admin.py
+► реализация здесь: https://github.com/OlgaOFrolova/API_Restfull_booker/blob/master/tests/test_auth_admin.py
 
 ## Booking - GetBookingIds Метод GET
 `Возвращает идентификаторы всех бронирований, существующих в API. Может принимать необязательные строки запроса для поиска и возврата подмножества идентификаторов бронирования`
@@ -68,7 +68,7 @@
 * поле "depositpaid" имеет формат Boolean
 * поля "checkin" и "checkout" имеют формат CCYY-MM-DD
 
-► реализация здесь: https://github.com/OlgaOFrolova/API/blob/main/tests/test_booking_id.py
+► реализация здесь: https://github.com/OlgaOFrolova/API_Restfull_booker/blob/master/tests/test_booking_id.py
 
 ## Booking - CreateBooking Метод POST
 `Создает новое бронирование в API`
