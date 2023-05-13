@@ -68,7 +68,7 @@
 * поле "depositpaid" имеет формат Boolean
 * поля "checkin" и "checkout" имеют формат CCYY-MM-DD
 
-реализацтя здесь https://github.com/OlgaOFrolova/API/blob/main/tests/test_booking_id.py
+► реализация здесь: https://github.com/OlgaOFrolova/API/blob/main/tests/test_booking_id.py
 
 ## Booking - CreateBooking Метод POST
 `Создает новое бронирование в API`
