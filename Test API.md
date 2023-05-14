@@ -44,6 +44,7 @@
    * в невалидном формате даты
    * дата выходит за диапазон предусмотренных значений
    * пустое поле даты
+► реализация здесь: https://github.com/OlgaOFrolova/API_Restfull_booker/blob/master/tests/test_get_booking_ids.py
 
 ## Booking - GetBooking Метод GET
 `Возвращает конкретное бронирование на основе предоставленного идентификатора бронирования`
