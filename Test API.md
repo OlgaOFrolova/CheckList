@@ -73,19 +73,16 @@
 ## Booking - CreateBooking Метод POST
 `Создает новое бронирование в API`
 
-* ввод валидных  значений всех полей формы бронирования
-   * поле  "firstname":  формат String
-   * поле  "lastname": формат String
-   * поле "totalprice": целочисленный формат 
-   * поле "depositpaid": формат Boolean
-   * поле "checkin": формат CCYY-MM-DD
-   * поле "checkout": формат CCYY-MM-DD
-   * поле  "additionalneeds": формат String
+* проверка валидных значений полей формы бронирования
+   * поле  "firstname":  формат String, Integer, Float, Dict, List, Boolean, пустое поле
+   * поле  "lastname": формат String, Integer, Float, Dict, List, Boolean, пустое поле
+   * поле "totalprice": формат String, Integer, Float, Dict, List, Boolean, пустое поле
+   * поле "depositpaid": формат String, Integer, Float, Dict, List, Boolean, пустое поле
+   * поле "checkin": формат CCYY-MM-DD, String, Integer, Float, Dict, List, Boolean, пустое поле
+   * поле "checkout": формат CCYY-MM-DD, String, Integer, Float, Dict, List, Boolean, пустое поле
+   * поле  "additionalneeds": формат String, Integer, Float, Dict, List, Boolean, пустое поле
 
-* все сочетания валидных значений и пустых полей (128 вариантов)
-* все поля формы бронирования пустые
-* все сочетания валидных и невалидных значений 
-* последовательный ввод невалидных значений во все поля
+► реализация здесь https://github.com/OlgaOFrolova/API_Restfull_booker/blob/master/tests/test_create_booking.py
 
 ## Booking - UpdateBooking Метод PUT
 `Обновление текущего бронирования`
