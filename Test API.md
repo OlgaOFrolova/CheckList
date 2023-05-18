@@ -73,7 +73,7 @@
 ## Booking - CreateBooking Метод POST
 `Создает новое бронирование в API`
 
-* проверка валидных значений полей формы бронирования
+* проверка валидных значений полей формы бронирования (♥ Марина, если проверять комбинации 7 полей и семи форматов, то получается 823543 комбинаций... их же не надо ло все проверять, ведь так?)
    * поле  "firstname":  формат String, Integer, Float, Dict, List, Boolean, пустое поле
    * поле  "lastname": формат String, Integer, Float, Dict, List, Boolean, пустое поле
    * поле "totalprice": формат String, Integer, Float, Dict, List, Boolean, пустое поле
