@@ -115,3 +115,10 @@
 * удаление уже удаленного объекта
 
 ► реализация здесь https://github.com/OlgaOFrolova/API_Restfull_booker/blob/master/tests/test_delete_booking.py
+
+## Ping - HealthCheck Метод GET
+`Проверка работоспособности, чтобы убедиться, что API запущен и работает`
+
+* отправка запроса 
+
+► реализация здесь https://github.com/OlgaOFrolova/API_Restfull_booker/blob/master/tests/test_ping_api.py
