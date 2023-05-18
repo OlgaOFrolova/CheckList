@@ -113,3 +113,5 @@
 * удаление по несуществующему ID
 * удаление по невалидному ID
 * удаление уже удаленного объекта
+
+► реализация здесь https://github.com/OlgaOFrolova/API_Restfull_booker/blob/master/tests/test_delete_booking.py
