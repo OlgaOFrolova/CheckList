@@ -56,7 +56,7 @@
 * ввод данных разной длины
    * один символ в строке
    * два символа
-   * >300 символов
+   * более 300 символов
 
 
 ► реализация здесь: https://github.com/OlgaOFrolova/API_Restfull_booker/blob/master/tests/test_auth_admin.py
